@@ -1,62 +1,68 @@
 package org.example;
 
 public class University {
+
     private String id;
     private String fullName;
     private String shortName;
     private int yearOfFoundation;
     private StudyProfile mainProfile;
 
-    public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
-        this.id = id;
-        this.fullName = fullName;
-        this.shortName = shortName;
-        this.yearOfFoundation = yearOfFoundation;
-        this.mainProfile = mainProfile;
+    public University() {
     }
 
     public String getId() {
         return id;
     }
 
+    public University setId(String id) {
+        this.id = id;
+        return this;
+    }
+
     public String getFullName() {
         return fullName;
+    }
+
+    public University setFullName(String fullName) {
+        this.fullName = fullName;
+        return this;
     }
 
     public String getShortName() {
         return shortName;
     }
 
+    public University setShortName(String shortName) {
+        this.shortName = shortName;
+        return this;
+    }
+
     public int getYearOfFoundation() {
         return yearOfFoundation;
+    }
+
+    public University setYearOfFoundation(int yearOfFoundation) {
+        this.yearOfFoundation = yearOfFoundation;
+        return this;
     }
 
     public StudyProfile getMainProfile() {
         return mainProfile;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
-
-    public void setShortName(String shortName) {
-        this.shortName = shortName;
-    }
-
-    public void setYearOfFoundation(int yearOfFoundation) {
-        this.yearOfFoundation = yearOfFoundation;
-    }
-
-    public void setMainProfile(StudyProfile mainProfile) {
+    public University setMainProfile(StudyProfile mainProfile) {
         this.mainProfile = mainProfile;
+        return this;
     }
 
     @Override
     public String toString() {
-        return "id: " + getId() + ", fullName: " + getFullName() + ", shortName: " + getShortName() + ", mainProfile: " + getMainProfile() + ", yearOfFoundation: " + getYearOfFoundation();
+        return String.format("id = %s, fullName = %s, shortName = %s, yearOfFoundation = %s, mainProfile = %s",
+                this.id,
+                this.fullName,
+                this.shortName,
+                this.yearOfFoundation,
+                this.mainProfile.getProfileName());
     }
 }

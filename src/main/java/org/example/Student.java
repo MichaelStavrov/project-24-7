@@ -1,59 +1,57 @@
 package org.example;
 
 public class Student {
+
     private String fullName;
-    String universityId;
-    int currentCourseNumber;
-    float avgExamScore;
+    private String universityId;
+    private int currentCourseNumber;
+    private float avgExamScore;
 
-    public Student(String fullName, String universityId, int currentCourseNumber, float avgExamScore) {
-        this.fullName = fullName;
-        this.universityId = universityId;
-        this.currentCourseNumber = currentCourseNumber;
-        this.avgExamScore = avgExamScore;
-    }
-
-    public Student(String fullName, String universityId, int currentCourseNumber) {
-        this.fullName = fullName;
-        this.universityId = universityId;
-        this.currentCourseNumber = currentCourseNumber;
-        this.avgExamScore = 0;
+    public Student() {
     }
 
     public String getFullName() {
         return fullName;
     }
 
+    public Student setFullName(String fullName) {
+        this.fullName = fullName;
+        return this;
+    }
+
     public String getUniversityId() {
         return universityId;
+    }
+
+    public Student setUniversityId(String universityId) {
+        this.universityId = universityId;
+        return this;
     }
 
     public int getCurrentCourseNumber() {
         return currentCourseNumber;
     }
 
+    public Student setCurrentCourseNumber(int currentCourseNumber) {
+        this.currentCourseNumber = currentCourseNumber;
+        return this;
+    }
+
     public float getAvgExamScore() {
         return avgExamScore;
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
-
-    public void setUniversityId(String universityId) {
-        this.universityId = universityId;
-    }
-
-    public void setCurrentCourseNumber(int currentCourseNumber) {
-        this.currentCourseNumber = currentCourseNumber;
-    }
-
-    public void setAvgExamScore(float avgExamScore) {
+    public Student setAvgExamScore(float avgExamScore) {
         this.avgExamScore = avgExamScore;
+        return this;
     }
 
     @Override
     public String toString() {
-        return "fullName: " + getFullName() + ", universityId" + getUniversityId() + ", currentCourseNumber" + getCurrentCourseNumber() + ", avgExamScore" + getAvgExamScore();
+        return String.format("fullName = %s, universityId = %s, currentCourseNumber = %s, avgExamScore = %s",
+                this.fullName,
+                this.universityId,
+                this.currentCourseNumber,
+                this.avgExamScore);
     }
 }
