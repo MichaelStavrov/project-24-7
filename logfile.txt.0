@@ -598,3 +598,199 @@
   <message>Application finished</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-03-28T07:41:17.630335500Z</date>
+  <millis>1743147677630</millis>
+  <nanos>335500</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:17.685335900Z</date>
+  <millis>1743147677685</millis>
+  <nanos>335900</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:18.691335600Z</date>
+  <millis>1743147678691</millis>
+  <nanos>335600</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:18.694337500Z</date>
+  <millis>1743147678694</millis>
+  <nanos>337500</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:18.742335200Z</date>
+  <millis>1743147678742</millis>
+  <nanos>335200</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:18.743336300Z</date>
+  <millis>1743147678743</millis>
+  <nanos>336300</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:18.752335200Z</date>
+  <millis>1743147678752</millis>
+  <nanos>335200</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:18.753335300Z</date>
+  <millis>1743147678753</millis>
+  <nanos>335300</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:18.939339200Z</date>
+  <millis>1743147678939</millis>
+  <nanos>339200</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:18.941346Z</date>
+  <millis>1743147678941</millis>
+  <nanos>346000</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:19.074370Z</date>
+  <millis>1743147679074</millis>
+  <nanos>370000</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>Directory created successfully</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:19.083361400Z</date>
+  <millis>1743147679083</millis>
+  <nanos>361400</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.XmlWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling finished successfully</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:19.083361400Z</date>
+  <millis>1743147679083</millis>
+  <nanos>361400</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:19.084382400Z</date>
+  <millis>1743147679084</millis>
+  <nanos>382400</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>Directory created successfully</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:19.117335200Z</date>
+  <millis>1743147679117</millis>
+  <nanos>335200</nanos>
+  <sequence>14</sequence>
+  <logger>org.example.JsonWriter</logger>
+  <level>INFO</level>
+  <class>org.example.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2025-03-28T07:41:19.117335200Z</date>
+  <millis>1743147679117</millis>
+  <nanos>335200</nanos>
+  <sequence>15</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
